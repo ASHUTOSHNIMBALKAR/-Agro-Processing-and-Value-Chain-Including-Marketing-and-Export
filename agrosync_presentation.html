@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>AgroSync AI - Winning Pitch Deck</title>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reset.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/theme/dracula.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;600;800&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+		<style>
+            :root {
+                --r-main-font: 'Inter', sans-serif;
+                --r-heading-font: 'Outfit', sans-serif;
+                --r-heading-color: #f9a602;
+                --r-link-color: #f9a602;
+                --primary: #f9a602;
+                --secondary: #1b3a2a;
+                --bg: #0d0d0d;
+            }
+            .reveal h1, .reveal h2, .reveal h3 { font-weight: 800; text-transform: none; }
+            .reveal .slides section { padding: 40px; text-align: left; background: rgba(13, 13, 13, 0.85); border-radius: 20px; backdrop-filter: blur(10px); border: 1px solid rgba(249, 166, 2, 0.1); color: white; }
+            .reveal .controls { color: var(--primary) !important; }
+            .reveal .progress { background: rgba(249, 166, 2, 0.1) !important; height: 5px !important; }
+            .reveal .progress span { background: var(--primary) !important; }
+            .highlight { color: var(--primary); font-weight: bold; }
+            .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+            .card { background: rgba(255,255,255,0.05); padding: 20px; border-radius: 12px; border-left: 4px solid var(--primary); }
+            .icon-label { display: flex; align-items: center; gap: 10px; margin-bottom: 10px; font-weight: 600; color: var(--primary); }
+            .hero-img { border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.5); width: 100%; object-fit: cover; }
+            .badge { display: inline-block; padding: 4px 12px; background: var(--primary); color: #000; border-radius: 50px; font-size: 0.6em; vertical-align: middle; margin-left: 10px; }
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+
+                <!-- SLIDE 1: COVER -->
+				<section data-background-image="file:///C:/Users/Lenovo/.gemini/antigravity/brain/997dcf49-42d9-4def-a2a4-473124f978c3/agrosync_cover_slide_1775047291509.png" data-background-opacity="0.4">
+					<h3 style="margin-bottom: 0;">AGROSYNC <span class="highlight">AI</span></h3>
+					<h1 style="font-size: 2.5em;">The Digital Backbone of<br>Agri-Export <span class="badge">V1.0</span></h1>
+					<p style="font-size: 0.8em; opacity: 0.8;">Digitizing Post-Harvest Value Chains with Industrial Edge AI & IoT</p>
+                    <div style="margin-top: 40px; font-size: 0.6em;">
+                        <span class="highlight">TEAM:</span> Pune International Agri Hackathon <br>
+                        <span class="highlight">THEME:</span> Agro Processing & Marketing
+                    </div>
+				</section>
+
+                <!-- SLIDE 2: THE PROBLEM -->
+				<section>
+					<h2 class="highlight">The $13B Blind Spot</h2>
+					<div class="grid">
+						<div class="card">
+							<div class="icon-label">🛑 THE LOSS</div>
+							<p style="font-size: 0.7em;">35-40% of India's horticulture is LOST post-harvest due to inefficient grading and storage.</p>
+						</div>
+						<div class="card">
+							<div class="icon-label">📉 REJECTIONS</div>
+							<p style="font-size: 0.7em;">Exporters face 15%+ rejection in European markets because of "subjective grading" (Manual inspection).</p>
+						</div>
+					</div>
+                    <div class="card" style="margin-top: 20px;">
+                        <div class="icon-label">💡 OPPORTUNITY</div>
+                        <p style="font-size: 0.8em;">Reducing loss by 20% can increase farmer net income by <span class="highlight">1.5x</span> and unlock global markets.</p>
+                    </div>
+				</section>
+
+                <!-- SLIDE 3: THE HARDWARE -->
+				<section>
+					<h2 class="highlight">Industrial Hardware Architecture</h2>
+					<p style="font-size: 0.6em; opacity: 0.7; margin-bottom: 20px;">Cyber-Physical System (CPS) Integration</p>
+					<div class="grid">
+						<div class="card">
+							<div class="icon-label">👁️ VISION NODE</div>
+							<ul style="font-size: 0.6em;">
+								<li><b>ESP32-S3:</b> AI-Optimized Core</li>
+								<li><b>OV2640:</b> 2MP Grading Lens</li>
+								<li><b>TFLite Micro:</b> INT8 Quantization</li>
+							</ul>
+						</div>
+						<div class="card">
+							<div class="icon-label">👃 GAS SENSORY HUB</div>
+							<ul style="font-size: 0.6em;">
+								<li><b>SGP30:</b> Multi-pixel Ethylene Proxy</li>
+								<li><b>MQ-3:</b> Alcohol/Fermentation Detection</li>
+								<li><b>BME280:</b> Precision Environment</li>
+							</ul>
+						</div>
+					</div>
+                    <div class="card" style="margin-top: 20px; border-left-color: #4caf50;">
+                        <p style="font-size: 0.7em;"><b>Power System:</b> 5W Solar + 18650 Li-ion for 24/7 farm-to-warehouse autonomy.</p>
+                    </div>
+				</section>
+
+                <!-- SLIDE 4: TECH STACK -->
+				<section>
+					<h2 class="highlight">Edge-Heavy Tech Stack</h2>
+					<div class="grid" style="grid-template-columns: 2fr 1fr;">
+						<div class="card">
+							<div class="icon-label">⚙️ THE STACK</div>
+							<ul style="font-size: 0.7em;">
+								<li><span class="highlight">AI:</span> MobileNetV2 Grading Model (On-Device)</li>
+								<li><span class="highlight">TRANS:</span> MQTT over LoRaWAN (Wide-Range)</li>
+								<li><span class="highlight">CLOUD:</span> FastAPI + InfluxDB (Time-series)</li>
+								<li><span class="highlight">TRUST:</span> Hyperledger-lite for traceability</li>
+							</ul>
+						</div>
+                        <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                            <div class="badge" style="margin: 10px 0; font-size: 1em; width: 100%; text-align: center;">95% Accuracy</div>
+                            <div class="badge" style="margin: 10px 0; font-size: 1em; width: 100%; text-align: center; background: #fff;">0.1W Power</div>
+                        </div>
+					</div>
+				</section>
+
+                <!-- SLIDE 5: VALUE CHAIN -->
+				<section>
+					<h2 class="highlight">The Value Chain Impact</h2>
+					<div class="card" style="text-align: center; margin-bottom: 20px;">
+                        <p style="font-size: 1.2em; font-weight: 800;">FARMER → FPO → EXPORTER → GLOBAL</p>
+                    </div>
+					<div class="grid">
+						<div class="card">
+							<h4 style="font-size: 0.7em;">For Farmers</h4>
+							<p style="font-size: 0.6em;">Instant QC verification at farm gate = No middleman theft.</p>
+						</div>
+						<div class="card">
+							<h4 style="font-size: 0.7em;">For Exporters</h4>
+							<p style="font-size: 0.6em;">Immutable Blockchain log = Guaranteed Premium pricing.</p>
+						</div>
+					</div>
+				</section>
+
+                <!-- SLIDE 6: WHY WE WIN -->
+				<section data-background-color="#1b3a2a">
+					<h2 style="color: #fff;">Why <span class="highlight">AgroSync AI</span> Wins?</h2>
+					<ol style="color: #fff; font-size: 0.8em; margin-top: 30px;">
+						<li style="margin-bottom: 15px;"><b>Proven Hardware:</b> Scalable BOM < $25 per node.</li>
+						<li style="margin-bottom: 15px;"><b>Industrial Logic:</b> Using LoRaWAN (Rural friendly) not Wi-Fi.</li>
+						<li style="margin-bottom: 15px;"><b>Revenue Model:</b> SaaS + Hardware-as-a-Service (HaaS).</li>
+					</ol>
+                    <div style="margin-top: 50px;">
+                        <h3 class="highlight">Empowering Bharat's Agri Future.</h3>
+                    </div>
+				</section>
+
+			</div>
+		</div>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.5.0/reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				hash: true,
+                center: true,
+                transition: 'convex', 
+                controlsTutorial: true,
+                progress: true,
+                backgroundTransition: 'fade'
+			});
+		</script>
+	</body>
+</html>

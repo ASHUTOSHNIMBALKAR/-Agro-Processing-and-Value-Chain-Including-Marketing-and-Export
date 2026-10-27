@@ -1,0 +1,35 @@
+# Dependencies & build outputs
+node_modules/
+dist/
+dist-ssr/
+.env*
+logs/
+*.log
+__pycache__/
+*.pyc
+
+# Images (exclude all images per user instruction)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.webp
+*.ico
+*.bmp
+*.tiff
+
+# PDFs and binary presentations
+*.pdf
+*.pptx
+*.ppt
+*.docx
+*.xlsx
+
+# Ignore all markdown files except the root README.md
+*.md
+!/README.md
+
+# OS files
+.DS_Store
+Thumbs.db

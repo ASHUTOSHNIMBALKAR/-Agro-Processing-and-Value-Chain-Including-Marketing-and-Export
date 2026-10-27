@@ -1,0 +1,9 @@
+{
+  "name": "agro-sync-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix agro-sync",
+    "build": "npm run build --prefix agro-sync",
+    "preview": "npm run preview --prefix agro-sync"
+  }
+}
